@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
 
+//comment
+
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col justify-between bg-cover bg-center text-white" style={{ backgroundImage: "url('/background.JPG')" }}>
@@ -9,7 +11,6 @@ export default function Home() {
         <nav className="max-w-5xl mx-auto flex justify-between items-center">
           <h1 className="text-xl font-bold">Gannon</h1>
           <ul className="flex space-x-6 text-sm md:text-base">
-            <li><Link href="#trading">Trading</Link></li>
             <li><Link href="#ml">Machine Learning</Link></li>
             <li><Link href="#data">Data Projects</Link></li>
             <li><Link href="#games">Games</Link></li>
