@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col justify-between bg-cover bg-center text-white" style={{ backgroundImage: "url('/background.jpg')" }}>
+    <main className="min-h-screen flex flex-col justify-between bg-cover bg-center text-white" style={{ backgroundImage: "url('/background.JPG')" }}>
       <header className="w-full bg-black bg-opacity-50 p-4 fixed top-0 left-0 z-50 shadow-md">
         <nav className="max-w-5xl mx-auto flex justify-between items-center">
           <h1 className="text-xl font-bold">Gannon</h1>
@@ -21,7 +21,7 @@ export default function Home() {
 
       <section className="flex-grow flex flex-col items-center justify-center text-center pt-32 px-4">
         <Image
-          src="/profile.jpg"
+          src="/profile.JPG"
           alt="Gannon profile"
           width={200}
           height={200}
@@ -29,7 +29,7 @@ export default function Home() {
         />
 
         <div className="mt-10">
-          <Link href="/Gannon Kenney-McGowan_Resume.pdf">
+          <Link href="/Gannon_Kenney-McGowan_Resume.pdf">
             <Button size="lg">Download My Resume</Button>
           </Link>
         </div>
